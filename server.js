@@ -1,5 +1,6 @@
 let http = require("http");
 let server = http.createServer((request,response)=>{
+    console.log(request);
     response.end("Server started successfully!")
 
 });
