@@ -41,9 +41,7 @@ let server = http.createServer((request,response)=>{
                 }
             }); 
             break;    
-
-    }
-    
+    } 
 });
 server.listen(2000,'localhost',(err)=>{
     if(err){
